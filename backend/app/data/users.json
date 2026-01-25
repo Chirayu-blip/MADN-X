@@ -1,0 +1,12 @@
+{
+  "USER-1A9D05AD2F8724B7": {
+    "id": "USER-1A9D05AD2F8724B7",
+    "email": "test@example.com",
+    "password_hash": "550f693e6c1c05f0a9af94c3d860a5f7:574f0795e8095335e1c7248616cfef9352f0427f0803e8423051a27d8f86402d",
+    "name": "Test User",
+    "role": "user",
+    "created_at": "2026-01-19T19:15:35.621602",
+    "last_login": null,
+    "is_active": true
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "PNEU-001",
+    "radiology": "Chest X-ray shows bilateral patchy opacities suggestive of early pneumonia.",
+    "ecg": "Normal sinus rhythm 70 bpm.",
+    "symptoms_text": "Fever, productive cough with yellow sputum, pleuritic chest pain.",
+    "lab_text": "WBC > 12, CRP > 10",
+    "expected": ["Pneumonia", "Respiratory Infection", "Bacterial Infection likely"]
+  },
+  {
+    "id": "CHF-002",
+    "radiology": "Cardiomegaly with prominent pulmonary vasculature and bilateral pleural effusions.",
+    "ecg": "Sinus tachycardia with occasional PVCs.",
+    "symptoms_text": "Progressive dyspnea on exertion, orthopnea, leg swelling.",
+    "lab_text": "BNP elevated, mild hyponatremia.",
+    "expected": ["Cardiomegaly", "Pleural Effusion", "Dyspnea"]
+  },
+  {
+    "id": "COPD-003",
+    "radiology": "Hyperinflated lungs with flattened diaphragms.",
+    "ecg": "Sinus rhythm.",
+    "symptoms_text": "Chronic cough, wheezing, exertional dyspnea; former smoker.",
+    "lab_text": "Normal WBC/CRP.",
+    "expected": ["Asthma/COPD Exacerbation", "Dyspnea"]
+  },
+  {
+    "id": "STEMI-004",
+    "radiology": "No acute cardiopulmonary process.",
+    "ecg": "ST elevation in leads II, III, aVF with reciprocal depression in I and aVL.",
+    "symptoms_text": "Crushing chest pain radiating to left arm, diaphoresis.",
+    "lab_text": "Troponin positive.",
+    "expected": ["ST Elevation", "Tachycardia"]
+  },
+  {
+    "id": "TB-005",
+    "radiology": "Right upper lobe cavitary lesion with apical scarring.",
+    "ecg": "Normal sinus rhythm.",
+    "symptoms_text": "Chronic cough, weight loss, low-grade fever, hemoptysis.",
+    "lab_text": "Mild anemia.",
+    "expected": ["TB or Malignancy (consider)", "Anemia"]
+  }
+]
