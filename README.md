@@ -56,58 +56,58 @@ MADN-X:             "PE CONFIRMED: 98% - CTPA filling defect is diagnostic"
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                           MADN-X ARCHITECTURE v2.0                          │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
+│                                                                             |
 │  ┌──────────────┐                                                           │
-│  │   Frontend   │  Next.js 16 + React + Tailwind                           │
+│  │   Frontend   │  Next.js 16 + React + Tailwind                            |
 │  │   (Port 3000)│  • Dark theme professional UI                             │
 │  └──────┬───────┘  • Reasoning chain visualization                          │
 │         │          • Evidence attribution display                           │
-│         ▼                                                                    │
+│         ▼                                                                   │
 │  ┌──────────────────────────────────────────────────────────────────────┐   │
-│  │                        FastAPI Backend (Port 8000)                    │   │
+│  │                        FastAPI Backend (Port 8000)                   │   |
 │  │  ┌─────────────────────────────────────────────────────────────────┐ │   │
 │  │  │                     /diagnose Endpoint                          │ │   │
 │  │  │                                                                 │ │   │
-│  │  │   ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐              │ │   │
-│  │  │   │🔬 Radio-│ │❤️ Cardio│ │🫁 Pulmo-│ │🧪 Patho-│              │ │   │
-│  │  │   │ logist  │ │ logist  │ │ nologist│ │ logist  │              │ │   │
-│  │  │   │         │ │         │ │         │ │         │              │ │   │
-│  │  │   │DEFINIT- │ │DEFINIT- │ │SUPPORT- │ │SUPPORT- │              │ │   │
-│  │  │   │IVE TEST │ │IVE TEST │ │IVE SIGNS│ │IVE LABS │              │ │   │
-│  │  │   └────┬────┘ └────┬────┘ └────┬────┘ └────┬────┘              │ │   │
+│  │  │   ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐               │ │   │
+│  │  │   │🔬 Radio-│ │❤️ Cardio│ │🫁 Pulmo-│ │🧪 Patho-│             │ │   │
+│  │  │   │ logist  │ │ logist  │ │ nologist│ │ logist  │               │ │   │
+│  │  │   │         │ │         │ │         │ │         │               │ │   │
+│  │  │   │DEFINIT- │ │DEFINIT- │ │SUPPORT- │ │SUPPORT- │               │ │   │
+│  │  │   │IVE TEST │ │IVE TEST │ │IVE SIGNS│ │IVE LABS │               │ │   │
+│  │  │   └────┬────┘ └────┬────┘ └────┬────┘ └────┬────┘               │ │   │
 │  │  │        │           │           │           │                    │ │   │
 │  │  │        └───────────┴─────┬─────┴───────────┘                    │ │   │
 │  │  │                          ▼                                      │ │   │
-│  │  │   ┌─────────────────────────────────────────────────┐          │ │   │
-│  │  │   │              Shared Evidence Layer               │          │ │   │
-│  │  │   │  • Evidence Attribution    • Finding Correlation │          │ │   │
-│  │  │   │  • Definitive vs Supportive Evidence Detection  │          │ │   │
-│  │  │   └─────────────────────┬───────────────────────────┘          │ │   │
+│  │  │   ┌─────────────────────────────────────────────────┐           │ │   │
+│  │  │   │              Shared Evidence Layer              │           │ │   │
+│  │  │   │  • Evidence Attribution    • Finding Correlation│           │ │   │
+│  │  │   │  • Definitive vs Supportive Evidence Detection  │           │ │   │
+│  │  │   └─────────────────────┬───────────────────────────┘           │ │   │
 │  │  │                         │                                       │ │   │
 │  │  │                         ▼                                       │ │   │
-│  │  │   ┌─────────────────────────────────────────────────┐          │ │   │
-│  │  │   │              Consensus Agent                     │          │ │   │
-│  │  │   │  • Weighted Evidence Merging                    │          │ │   │
-│  │  │   │  • Agreement Scoring                            │          │ │   │
-│  │  │   │  • Definitive Finding Override                  │          │ │   │
-│  │  │   └─────────────────────┬───────────────────────────┘          │ │   │
+│  │  │   ┌─────────────────────────────────────────────────┐           │ │   │
+│  │  │   │              Consensus Agent                    │           │ │   │
+│  │  │   │  • Weighted Evidence Merging                    │           │ │   │
+│  │  │   │  • Agreement Scoring                            │           │ │   │
+│  │  │   │  • Definitive Finding Override                  │           │ │   │
+│  │  │   └─────────────────────┬───────────────────────────┘           │ │   │
 │  │  │                         │                                       │ │   │
 │  │  │                         ▼                                       │ │   │
-│  │  │   ┌─────────────────────────────────────────────────┐          │ │   │
-│  │  │   │               Safety Agent                       │          │ │   │
-│  │  │   │  • Critical Condition Detection                 │          │ │   │
-│  │  │   │  • Contradiction Checking                       │          │ │   │
-│  │  │   │  • Confidence Calibration                       │          │ │   │
-│  │  │   └─────────────────────────────────────────────────┘          │ │   │
+│  │  │   ┌─────────────────────────────────────────────────┐           │ │   │
+│  │  │   │               Safety Agent                      │           │ │   │
+│  │  │   │  • Critical Condition Detection                 │           │ │   │
+│  │  │   │  • Contradiction Checking                       │           │ │   │
+│  │  │   │  • Confidence Calibration                       │           │ │   │
+│  │  │   └─────────────────────────────────────────────────┘           │ │   │
 │  │  │                                                                 │ │   │
 │  │  └─────────────────────────────────────────────────────────────────┘ │   │
-│  │                                                                       │   │
+│  │                                                                      │   │
 │  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐                   │   │
 │  │  │Explainabil- │  │Audit Logger │  │  Metrics    │                   │   │
 │  │  │ity Engine   │  │(HIPAA-Ready)│  │  Tracker    │                   │   │
 │  │  └─────────────┘  └─────────────┘  └─────────────┘                   │   │
 │  └──────────────────────────────────────────────────────────────────────┘   │
-│                                                                              │
+│                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
